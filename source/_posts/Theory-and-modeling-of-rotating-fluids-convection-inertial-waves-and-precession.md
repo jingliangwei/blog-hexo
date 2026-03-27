@@ -4,6 +4,7 @@ title: >-
   precession
 math: true
 date: 2026-03-26 22:15:53
+update: 2026-03-27 23:30:00
 categories:
   - fluid
 tags:
