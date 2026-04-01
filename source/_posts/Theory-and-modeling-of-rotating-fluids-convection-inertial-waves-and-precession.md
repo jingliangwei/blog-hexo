@@ -68,7 +68,7 @@ We often employ a triple index notation, for example, $\boldsymbol{u}_{mnk}$ and
 
 | index | repersent |
 |:---:|:---:|
-| $m$ | the angular structure |
+| $m$ | the azimuthal structure |
 | $n$ | the vertical structure |
 | $k$ | the radial structure |
 

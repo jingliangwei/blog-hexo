@@ -38,3 +38,11 @@ Assuming $\boldsymbol{u}=\text{Re}\{\hat{\boldsymbol{u}}e^{i(\boldsymbol{k}\cdot
 $$
 \hat{\boldsymbol{u}}=\frac{ik\hat{\boldsymbol{f}}}{2k_z+k(\omega+iEk^2)}
 $$
+
+## Nonlinear regime
+
+The nonlinear effect due to the force amplitude $a$ and the frequency $\omega$:
+
+![Figure 4](4.png)
+
+![Table 1](T1.png)
