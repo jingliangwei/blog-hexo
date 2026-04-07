@@ -14,7 +14,7 @@ excerpt:
   The inertial wave modes in rotating flow.
 ---
 
-[https://doi.org/10.1017/9781139024853](https://doi.org/10.1017/9781139024853)
+Zhang, K., & Liao, X. (2017). *Theory and modeling of rotating fluids: Convection, inertial waves, and precession*. Cambridge University Press. https://doi.org/10.1017/9781139024853
 
 ## 2 Introduction
 
@@ -46,7 +46,7 @@ $$
 \nabla^2 p-\frac{1}{\sigma^2}(\hat{\boldsymbol{z}}\cdot\nabla)^2 p=0 \tag{2.47}
 $$
 
-## 3 Inertial Modes in Rotating Narrow-gap Annuli
+## 3 Rotating Narrow-gap Annuli
 
 ### 3.1 Formulation
 

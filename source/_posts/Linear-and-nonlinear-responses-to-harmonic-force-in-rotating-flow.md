@@ -11,7 +11,7 @@ excerpt:
     The linear solution for rotating flow under a harmonic force.
 ---
 
-link: [http://doi.org/10.1017/jfm.2016.267](http://doi.org/10.1017/jfm.2016.267)
+Wei, X. (2016). Linear and nonlinear responses to harmonic force in rotating flow. *Journal of Fluid Mechanics*, *796*, 306–317. https://doi.org/10.1017/jfm.2016.267
 
 [pdf with notes](linear-and-nonlinear-responses-to-harmonic-force-in-rotating-flow.pdf)
 

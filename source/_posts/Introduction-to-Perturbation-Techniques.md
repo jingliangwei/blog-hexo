@@ -11,11 +11,11 @@ excerpt:
     The Floquet theory to solve the Mathieu equation.
 ---
 
-Reference book: *Introduction to Perturbation Techniques* by Ali Hasan Nayfeh.
+Nayfeh, A. H. (1993). *Introduction to perturbation techniques*. Wiley.
 
 [pdf with notes](Introduction_to_Perturbation_Techniques.pdf)
 
-## 11. The Mathieu Equation
+## 11 The Mathieu Equation
 
 $$
 \ddot{u}+(\delta+2\epsilon\cos 2t)u=0 \tag{11.2}
