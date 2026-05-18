@@ -35,7 +35,11 @@ k^2(k_y\lambda+2ik_x)\cos(n\pi[z+\frac{1}{2}])/4k_\perp^2 \\
 \cos(n\pi[z+\frac{1}{2}])
 \end{array}
 \right)
-\exp(i(k_xx+k_yy+\lambda t)).\tag{4.4}
+\exp(i(k_xx+k_yy+\lambda t)),\tag{4.4}
+$$
+with the dispersion relation
+$$
+\lambda=\frac{\pm 2k_z}{k}.\tag{4.5}
 $$
 
 {% note info %}
@@ -66,6 +70,15 @@ u=u(p) \\
 v=v(p) \\
 w=w(p)
 \end{array}
-\right.\rightarrow \nabla\cdot\vec{u}=0 \Rightarrow p
+\right.
+$$
+$$
+\left\{
+\begin{array}{l}
+\nabla\cdot\vec{u}=0 \\
+w(x,y,\pm\frac{1}{2})=0
+\end{array}
+\right.
+\Rightarrow p
 $$
 {% endnote %}
