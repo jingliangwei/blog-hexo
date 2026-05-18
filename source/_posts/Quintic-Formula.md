@@ -7,11 +7,13 @@ categories:
 tags:
     - quintic formula
     - algebra
-excerpt:
-    Why there is 'no' quintic formula? (A proof without Galois theory)
 ---
 
-Ideas from youtube vedio: https://youtu.be/BSHv9Elk1MU?si=jpgd7e8tOTUTmqLX
+Ideas from Youtube vedio: https://youtu.be/BSHv9Elk1MU?si=jpgd7e8tOTUTmqLX
+
+<!-- more -->
+
+Why there is 'no' quintic formula? (A proof without Galois theory)
 
 ## Fundamental theorem of algebra
 

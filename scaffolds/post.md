@@ -4,5 +4,4 @@ date: {{ date }}
 math: true
 categories:
 tags:
-excerpt:
 ---

@@ -7,13 +7,15 @@ categories:
 tags:
     - instability
     - protoplanetary disk
-excerpt:
-    The instabilities in protoplanetary disk.
 ---
 
 Huang, P., & Bai, X.-N. (2025). The interplay between dust dynamics and turbulence induced by the vertical shear instability. *The Astrophysical Journal*, *986*(1), 76. https://doi.org/10.3847/1538-4357/add345
 
 Huang, P., & Bai, X.-N. (2025). Dust clumping in outer protoplanetary disks: The interplay among four instabilities. *The Astrophysical Journal Letters*, *986*(1), L13. https://doi.org/10.3847/2041-8213/adcebb
+
+<!-- more -->
+
+The instabilities in protoplanetary disk.
 
 ## Evolutions
 

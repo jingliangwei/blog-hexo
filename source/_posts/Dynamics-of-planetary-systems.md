@@ -6,13 +6,15 @@ categories:
     - planetary science
 tags:
     - epicycle
-excerpt:
-    The epicycle approximation of nearly circular orbits.
 ---
 
 Tremaine, S. (2023). *Dynamics of planetary systems*. Princeton University Press.
 
 Ogilvie, G. I. (2020, May). *Dynamics of Astrophysical Discs*. Department of Applied Mathematics and Theoretical Physics, University of Cambridge. https://www.damtp.cam.ac.uk/user/gio10/dad.html
+
+<!-- more -->
+
+The epicycle approximation of nearly circular orbits.
 
 ## Orbital elements
 

@@ -10,11 +10,13 @@ categories:
 tags:
   - rotating flow
   - inertial waves
-excerpt:
-  The inertial wave modes in rotating flow.
 ---
 
 Zhang, K., & Liao, X. (2017). *Theory and modeling of rotating fluids: Convection, inertial waves, and precession*. Cambridge University Press. https://doi.org/10.1017/9781139024853
+
+<!-- more -->
+
+The inertial wave modes in rotating flow.
 
 ## 2 Introduction
 

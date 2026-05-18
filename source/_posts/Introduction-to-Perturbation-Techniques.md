@@ -8,15 +8,16 @@ tags:
     - perturbation
     - Floquet theory
     - detuning
-excerpt:
-    The Floquet theory to solve the Mathieu equation.
-
-    The detuning analysis used in forced oscillations.
 ---
 
 Nayfeh, A. H. (1993). *Introduction to perturbation techniques*. Wiley.
 
+<!-- more -->
+
 [pdf with notes](perturbation_Nayfeh.pdf)
+
+The Floquet theory to solve the Mathieu equation.
+The detuning analysis used in forced oscillations.
 
 ## 9 Forced Oscillations
 

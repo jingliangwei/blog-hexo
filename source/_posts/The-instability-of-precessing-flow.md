@@ -9,13 +9,15 @@ tags:
     - precessing flow
     - rotating flow
     - inertial waves
-excerpt:
-    The shearing and elliptical instability of precessing flow.
 ---
 
 Kerswell, R. R. (1993). The instability of precessing flow. *Geophysical & Astrophysical Fluid Dynamics*, *72*(1–4), 107–144. https://doi.org/10.1080/03091929308203609
 
+<!-- more -->
+
 [pdf with notes](The_instability_of_precessing_flow.pdf)
+
+The shearing and elliptical instability of precessing flow.
 
 ## Parameters
 

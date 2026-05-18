@@ -6,11 +6,13 @@ categories:
     - thermodynamics
 tags:
     - negative heat capacity
-excerpt:
-    Introduction to negative heat capacity in astrophysical systems.
 ---
 
 Velazquez, L. (2016). Remarks about the thermodynamics of astrophysical systems in mutual interaction and related notions. *Journal of Statistical Mechanics: Theory and Experiment*, *2016*(3), 033105. https://doi.org/10.1088/1742-5468/2016/03/033105
+
+<!-- more -->
+
+Introduction to negative heat capacity in astrophysical systems.
 
 ## Eddington's idea
 
