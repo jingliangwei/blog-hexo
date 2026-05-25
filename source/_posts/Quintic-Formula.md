@@ -13,6 +13,8 @@ Ideas from Youtube vedio: https://youtu.be/BSHv9Elk1MU?si=jpgd7e8tOTUTmqLX
 
 <!-- more -->
 
+Also see the visual Youtube vedio: https://youtu.be/9HIy5dJE-zQ?si=Wu3Qy9d0OF5dXm2j
+
 Why there is 'no' quintic formula? (A proof without Galois theory)
 
 ## Fundamental theorem of algebra
