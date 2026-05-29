@@ -45,6 +45,10 @@ $$
 
 ![Poincaré flow](poincare_flow.jpg)
 
+{% note info %}
+This soluion is independent of the self-rotating velocity, because the self-rotating is treated as the boundary condition (need a thin boundary layer). 
+{% endnote %}
+
 ### Derivation of equation
 
 From $\boldsymbol{u}=u_x\hat{\boldsymbol{x}}+u_y\hat{\boldsymbol{y}}+u_z\hat{\boldsymbol{z}}$ to $\boldsymbol{u}=u\tilde{\boldsymbol{s}}+v\tilde{\boldsymbol{\phi}}+w\tilde{\bar{\boldsymbol{z}}}$
