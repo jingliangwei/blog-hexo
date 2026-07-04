@@ -186,9 +186,9 @@ Beckwith, K., & Done, C. (2005). Extreme gravitational lensing near rotating bla
 ![Kerr BH shadow (nearby)](kerr_shadow_nearby.png)
 ![Kerr BH shadow (distant)](kerr_shadow_distant.png)
 
-## Ray tracting
+## Ray tracing
 
-Ray tracting: The photons are parameterized by x, y in the "view port" of the observer. By scanning over x and y, we can build up an image once we know where each photon goes. (see [http://locklessinc.com/articles/raytracing/](http://locklessinc.com/articles/raytracing/) for details)
+Ray tracing: The photons are parameterized by x, y in the "view port" of the observer. By scanning over x and y, we can build up an image once we know where each photon goes. (see [http://locklessinc.com/articles/raytracing/](http://locklessinc.com/articles/raytracing/) for details)
 
 {% note info %}
 parameter:
@@ -2464,7 +2464,7 @@ int main(int argc, char **argv)
 	$$
 	where $\dot{x}\equiv\mathrm{d}x/\mathrm{d}\lambda$, $\Sigma=r^2+a^2\cos^2\theta$, $\Delta=r^2-2r+a^2$.
 	$L$ is angular momentum, $\kappa$ is Carter constant (energy at infinity is set to $E=1$).
-	The nagetive sign in each equations above means tracting the ray in inverse.
+	The nagetive sign in each equations above means tracing the ray in inverse.
 
 {% note info %}
 1. The Lagrangian
