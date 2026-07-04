@@ -17,6 +17,10 @@ Abramowicz, M. A., & Fragile, P. C. (2013). Foundations of black hole accretion 
 
 | Parameters | Expression |
 |:---|:---|
+| total mass | $M_*$ |
+| total angular momentum | $J_*$ |
+| rescaled mass | $M=\dfrac{GM_*}{c^2}$ |
+| rescaled angular momentum | $a=\dfrac{J_*}{M_* c}$ |
 | relative thickness | $h=\dfrac{H}{R}$ |
 | dimensionless accretion rate | $\dot{m}=\dfrac{0.1\dot{M}c^2}{L_\text{Edd}}$ |
 | optical depth | $\tau$ |
