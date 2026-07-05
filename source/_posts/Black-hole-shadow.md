@@ -2464,7 +2464,7 @@ int main(int argc, char **argv)
 	$$
 	where $\dot{x}\equiv\mathrm{d}x/\mathrm{d}\lambda$, $\Sigma=r^2+a^2\cos^2\theta$, $\Delta=r^2-2r+a^2$.
 	$L$ is angular momentum, $\kappa$ is Carter constant (energy at infinity is set to $E=1$).
-	The nagetive sign in each equations above means tracing the ray in inverse.
+	The negative sign in each equations above means tracing the ray in reverse.
 
 {% note info %}
 1. The Lagrangian
