@@ -8,6 +8,7 @@ tags:
     - perturbation
     - Floquet theory
     - detuning
+    - multiple scales
 ---
 
 Nayfeh, A. H. (1993). *Introduction to perturbation techniques*. Wiley.
