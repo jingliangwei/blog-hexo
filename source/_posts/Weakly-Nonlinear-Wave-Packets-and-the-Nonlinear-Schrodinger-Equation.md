@@ -246,4 +246,36 @@ $$
     $$
     where $|\boldsymbol{k}|=\sqrt{k^2+l^2}$.
 
+- The common ansatz used in the multiple scales:
+    $$
+    \begin{aligned}
+    \eta &=\sum_{n=1}^3 \epsilon^n\eta_n(x_0,x_1,x_2;y_1,y_2;t_0,t_1,t_2)+\mathcal{O}(\epsilon^4), \\
+    \phi &=\sum_{n=1}^3 \epsilon^n\phi_n(x_0,x_1,x_2;y_1,y_2;z;t_0,t_1,t_2)+\mathcal{O}(\epsilon^4)
+    \end{aligned}
+    $$
+    where
+    $$
+    \begin{array}{lll}
+    x_0=x, & x_1=\epsilon x, & x_2=\epsilon^2 x, \\
+     & y_1=\epsilon y, & y_2=\epsilon^2 y, \\
+    t_0=t, & t_1=\epsilon t, & t_2=\epsilon^2 t.
+    \end{array}
+    $$
+    The order one component of $\eta$ is the linearized monochromatic wave
+    $$
+    \eta_1=Ae^{i(kx-\omega t)}+\text{c.c.}
+    $$
+    Applying the method of multiple scales, the solvability condition at $\mathcal{O}(\epsilon^3)$ gives the evolution of the complex amplitude $A$ of the wave:
+    $$
+    \begin{aligned}
+    2i\frac{\partial A}{\partial t_2}+p\frac{\partial^2 A}{\partial \xi^2}+q\frac{\partial^2 A}{\partial y_1^2}+\gamma A|A|^2={}&-i\epsilon(sA_{\xi y_1y_1}+rA_{\xi\xi\xi}+uA^2A^*_\xi-v|A|^2A_\xi) \\
+    &+\epsilon A\left.\bar{\phi}_\xi\right|_{z_1=0}.
+    \end{aligned}
+    $$
 
+{% note info %}
+The NLS equation:
+$$
+iu_t+\alpha u_{xx}+\gamma|u|^2u=0,\quad u\in\mathbb{C}.
+$$
+{% endnote %}
