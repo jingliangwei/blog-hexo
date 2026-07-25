@@ -1,5 +1,5 @@
 ---
-title: Black Holes in Binary Systems. Observational Appearance
+title: Standard Thin Disk
 math: true
 date: 2026-07-03 16:26:01
 categories:
