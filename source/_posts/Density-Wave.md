@@ -27,3 +27,6 @@ at a fixed time $t$, these $n$ arms in the spiral satisfy
 $$
 \theta=\frac{1}{n}[\Phi(r)+\text{const.}]\tag{7}
 $$
+
+- Leading spiral arms $\Phi'(r)>0$
+    Trailing spiral arms $\Phi'(r)<0$
