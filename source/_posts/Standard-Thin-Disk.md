@@ -9,7 +9,7 @@ tags:
     - accretion disk
 ---
 
-Shakura, N. I., & Sunyaev, R. A. (1973). Black holes in binary systems. Observational appearance. *Astronomy & Astrophysics*, *24*, 337–355.
+- Shakura, N. I., & Sunyaev, R. A. (1973). Black holes in binary systems. Observational appearance. *Astronomy & Astrophysics*, *24*, 337–355.
 
 <!-- more -->
 

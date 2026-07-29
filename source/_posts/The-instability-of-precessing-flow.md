@@ -11,7 +11,7 @@ tags:
     - inertial waves
 ---
 
-Kerswell, R. R. (1993). The instability of precessing flow. *Geophysical & Astrophysical Fluid Dynamics*, *72*(1–4), 107–144. https://doi.org/10.1080/03091929308203609
+- Kerswell, R. R. (1993). The instability of precessing flow. *Geophysical & Astrophysical Fluid Dynamics*, *72*(1–4), 107–144. https://doi.org/10.1080/03091929308203609
 
 <!-- more -->
 

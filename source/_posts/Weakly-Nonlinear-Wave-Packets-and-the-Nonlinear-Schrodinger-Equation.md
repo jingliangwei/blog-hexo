@@ -9,7 +9,7 @@ tags:
     - multiple scales
 ---
 
-Dias, F., & Bridges, T. (2005). Weakly nonlinear wave packets and the nonlinear Schrödinger equation. In R. Grimshaw (Ed.), *Nonlinear waves in fluids: Recent advances and modern applications* (pp. 29–67). Springer. https://doi.org/10.1007/3-211-38025-6_2
+- Dias, F., & Bridges, T. (2005). Weakly nonlinear wave packets and the nonlinear Schrödinger equation. In R. Grimshaw (Ed.), *Nonlinear waves in fluids: Recent advances and modern applications* (pp. 29–67). Springer. https://doi.org/10.1007/3-211-38025-6_2
 
 <!-- more -->
 

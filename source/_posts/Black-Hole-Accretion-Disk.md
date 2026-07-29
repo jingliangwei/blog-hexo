@@ -9,7 +9,7 @@ tags:
     - accretion disk
 ---
 
-Abramowicz, M. A., & Fragile, P. C. (2013). Foundations of black hole accretion disk theory. *Living Reviews in Relativity*, *16*(1), Article 1. https://doi.org/10.12942/lrr-2013-1
+- Abramowicz, M. A., & Fragile, P. C. (2013). Foundations of black hole accretion disk theory. *Living Reviews in Relativity*, *16*(1), Article 1. https://doi.org/10.12942/lrr-2013-1
 
 <!-- more -->
 

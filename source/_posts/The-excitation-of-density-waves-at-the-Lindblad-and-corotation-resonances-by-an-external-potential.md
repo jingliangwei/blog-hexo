@@ -10,9 +10,9 @@ tags:
   - density wave
 ---
 
-Goldreich, P., & Tremaine, S. (1979). The excitation of density waves at the Lindblad and corotation resonances by an external potential. *The Astrophysical Journal*, *233*, 857–871. https://doi.org/10.1086/157448
-Armitage, P. J. (2020). *Astrophysics of planet formation* (2nd ed.). Cambridge University Press. https://doi.org/10.1017/9781108344227
-Feldman, S. I., & Lin, C. C. (1973). A forcing mechanism for spiral density waves in galaxies. *Studies in Applied Mathematics*, *52*(1), 1–20. https://doi.org/10.1002/sapm19735211
+- Goldreich, P., & Tremaine, S. (1979). The excitation of density waves at the Lindblad and corotation resonances by an external potential. *The Astrophysical Journal*, *233*, 857–871. https://doi.org/10.1086/157448
+- Armitage, P. J. (2020). *Astrophysics of planet formation* (2nd ed.). Cambridge University Press. https://doi.org/10.1017/9781108344227
+- Feldman, S. I., & Lin, C. C. (1973). A forcing mechanism for spiral density waves in galaxies. *Studies in Applied Mathematics*, *52*(1), 1–20. https://doi.org/10.1002/sapm19735211
 
 <!-- more -->
 

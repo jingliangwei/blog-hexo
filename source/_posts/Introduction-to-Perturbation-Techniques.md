@@ -11,7 +11,7 @@ tags:
     - multiple scales
 ---
 
-Nayfeh, A. H. (1993). *Introduction to perturbation techniques*. Wiley.
+- Nayfeh, A. H. (1993). *Introduction to perturbation techniques*. Wiley.
 
 <!-- more -->
 

@@ -9,7 +9,7 @@ tags:
     - nonlinear tides
 ---
 
-Weinberg, N. N., Arras, P., Quataert, E., & Burkart, J. (2012). Nonlinear tides in close binary systems. *The Astrophysical Journal*, *751*(2), 136. https://doi.org/10.1088/0004-637X/751/2/136
+- Weinberg, N. N., Arras, P., Quataert, E., & Burkart, J. (2012). Nonlinear tides in close binary systems. *The Astrophysical Journal*, *751*(2), 136. https://doi.org/10.1088/0004-637X/751/2/136
 
 <!-- more -->
 

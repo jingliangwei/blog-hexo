@@ -8,7 +8,7 @@ tags:
     - negative heat capacity
 ---
 
-Velazquez, L. (2016). Remarks about the thermodynamics of astrophysical systems in mutual interaction and related notions. *Journal of Statistical Mechanics: Theory and Experiment*, *2016*(3), 033105. https://doi.org/10.1088/1742-5468/2016/03/033105
+- Velazquez, L. (2016). Remarks about the thermodynamics of astrophysical systems in mutual interaction and related notions. *Journal of Statistical Mechanics: Theory and Experiment*, *2016*(3), 033105. https://doi.org/10.1088/1742-5468/2016/03/033105
 
 <!-- more -->
 

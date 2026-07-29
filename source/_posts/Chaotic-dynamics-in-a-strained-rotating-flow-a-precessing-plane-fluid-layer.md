@@ -11,7 +11,7 @@ tags:
     - inertial waves
 ---
 
-Mason, R. M., & Kerswell, R. R. (2002). Chaotic dynamics in a strained rotating flow: A precessing plane fluid layer. *Journal of Fluid Mechanics*, *471*, 71–106. https://doi.org/10.1017/S0022112002001994
+- Mason, R. M., & Kerswell, R. R. (2002). Chaotic dynamics in a strained rotating flow: A precessing plane fluid layer. *Journal of Fluid Mechanics*, *471*, 71–106. https://doi.org/10.1017/S0022112002001994
 
 <!-- more -->
 

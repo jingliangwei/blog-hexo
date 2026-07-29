@@ -14,10 +14,10 @@ The shadow of a black hole
 
 <!-- more -->
 
-Luminet, J.-P. (1979). Image of a spherical black hole with thin accretion disk. *Astronomy and Astrophysics*, *75*(1-2), 228–235.
-Perlick, V., & Tsupko, O. Y. (2022). Calculating black hole shadows: Review of analytical studies. *Physics Reports*, *947*, 1–39. https://doi.org/10.1016/j.physrep.2021.10.004
-Gralla, S. E., Holz, D. E., & Wald, R. M. (2019). Black hole shadows, photon rings, and lensing rings. *Physical Review D*, *100*(2), Article 024018. https://doi.org/10.1103/PhysRevD.100.024018
-Beckwith, K., & Done, C. (2005). Extreme gravitational lensing near rotating black holes. *Monthly Notices of the Royal Astronomical Society*, *359*(4), 1217–1228. https://doi.org/10.1111/j.1365-2966.2005.08980.x
+- Luminet, J.-P. (1979). Image of a spherical black hole with thin accretion disk. *Astronomy and Astrophysics*, *75*(1-2), 228–235.
+- Perlick, V., & Tsupko, O. Y. (2022). Calculating black hole shadows: Review of analytical studies. *Physics Reports*, *947*, 1–39. https://doi.org/10.1016/j.physrep.2021.10.004
+- Gralla, S. E., Holz, D. E., & Wald, R. M. (2019). Black hole shadows, photon rings, and lensing rings. *Physical Review D*, *100*(2), Article 024018. https://doi.org/10.1103/PhysRevD.100.024018
+- Beckwith, K., & Done, C. (2005). Extreme gravitational lensing near rotating black holes. *Monthly Notices of the Royal Astronomical Society*, *359*(4), 1217–1228. https://doi.org/10.1111/j.1365-2966.2005.08980.x
 
 ## The photon trajectory in Schwarzschild metric
 

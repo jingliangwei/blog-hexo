@@ -8,9 +8,8 @@ tags:
   - protoplanetary disk
 ---
 
-Miotello, A., Kamp, I., Birnstiel, T., Cleeves, L. I., & Kataoka, A. (2022). Setting the stage for planet formation: Measurements and implications of the fundamental disk properties. In S. Inutsuka, Y. Aikawa, T. Muto, K. Tomida, & M. Tamura (Eds.), *Protostars and Planets VII* (pp. 1–30). Astronomical Society of the Pacific. https://doi.org/10.48550/arXiv.2203.09818
-
-Ren, B. B., Benisty, M., Ginski, C., Tazaki, R., Wallack, N. L., Milli, J., Garufi, A., Bae, J., Facchini, S., Ménard, F., Pinilla, P., Swastik, C., Teague, R., & Wahhaj, Z. (2023). Protoplanetary disks in Ks-band total intensity and polarized light. *Astronomy & Astrophysics*, *680*, A114. https://doi.org/10.1051/0004-6361/202347353
+- Miotello, A., Kamp, I., Birnstiel, T., Cleeves, L. I., & Kataoka, A. (2022). Setting the stage for planet formation: Measurements and implications of the fundamental disk properties. In S. Inutsuka, Y. Aikawa, T. Muto, K. Tomida, & M. Tamura (Eds.), *Protostars and Planets VII* (pp. 1–30). Astronomical Society of the Pacific. https://doi.org/10.48550/arXiv.2203.09818
+- Ren, B. B., Benisty, M., Ginski, C., Tazaki, R., Wallack, N. L., Milli, J., Garufi, A., Bae, J., Facchini, S., Ménard, F., Pinilla, P., Swastik, C., Teague, R., & Wahhaj, Z. (2023). Protoplanetary disks in Ks-band total intensity and polarized light. *Astronomy & Astrophysics*, *680*, A114. https://doi.org/10.1051/0004-6361/202347353
 
 <!-- more -->
 

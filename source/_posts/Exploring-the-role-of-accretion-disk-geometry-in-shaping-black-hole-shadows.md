@@ -9,7 +9,7 @@ tags:
     - Schwarzschild metric
 ---
 
-Wang, Z.-L. (2025). Exploring the role of accretion disk geometry in shaping black hole shadows. *Physical Review D*, *112*(6), 064052. https://doi.org/10.1103/fhqj-wgcm
+- Wang, Z.-L. (2025). Exploring the role of accretion disk geometry in shaping black hole shadows. *Physical Review D*, *112*(6), 064052. https://doi.org/10.1103/fhqj-wgcm
 
 <!-- more -->
 

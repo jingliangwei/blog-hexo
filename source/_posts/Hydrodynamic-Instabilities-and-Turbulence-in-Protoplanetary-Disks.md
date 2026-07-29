@@ -9,7 +9,7 @@ tags:
     - protoplanetary disk
 ---
 
-Lyra, W., & Umurhan, O. M. (2019). The initial conditions for planet formation: Turbulence driven by hydrodynamical instabilities in disks around young stars. *Publications of the Astronomical Society of the Pacific*, *131*(1001), 072001. https://doi.org/10.1088/1538-3873/aaf5ff
+- Lyra, W., & Umurhan, O. M. (2019). The initial conditions for planet formation: Turbulence driven by hydrodynamical instabilities in disks around young stars. *Publications of the Astronomical Society of the Pacific*, *131*(1001), 072001. https://doi.org/10.1088/1538-3873/aaf5ff
 
 <!-- more -->
 

@@ -9,7 +9,7 @@ tags:
     - Schwarzschild metric
 ---
 
-Luminet, J.-P. (1979). Image of a spherical black hole with thin accretion disk. *Astronomy and Astrophysics*, *75*(1-2), 228–235.
+- Luminet, J.-P. (1979). Image of a spherical black hole with thin accretion disk. *Astronomy and Astrophysics*, *75*(1-2), 228–235.
 
 <!-- more -->
 
