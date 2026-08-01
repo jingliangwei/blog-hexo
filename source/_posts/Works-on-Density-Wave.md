@@ -19,6 +19,8 @@ tags:
 
 - Su, Z., & Wei, X. (2025). Gravitational instability in protoplanetary disk with cooling: 2D global analysis. *The Astrophysical Journal*, *983*(2), 89. https://doi.org/10.3847/1538-4357/adc0ff
 
+- Olver, F. W. J., Lozier, D. W., Boisvert, R. F., & Clark, C. W. (Eds.). (2010). *NIST handbook of mathematical functions*. Cambridge University Press. https://dlmf.nist.gov/
+
 <!-- more -->
 
 ## Main Wave Equations
@@ -79,18 +81,37 @@ tags:
 
 ## Boundary Conditions
 
-- Outgoing wave boundary condition (Tsang & Lai, 2008): outgoing wave in the WKB limit
+- Outgoing wave / radiative boundary condition (Tsang & Lai, 2008): outgoing wave in the WKB limit
     $$
-    \delta h=\sqrt{S/k}\exp\left(i\int_{r_\text{OL}}^r k\,\mathrm{d}r+\frac{\pi}{4}\right)
+    \delta h=\sqrt{S/k}\exp\left(i\int_{r_\text{OL}}^r k\,\mathrm{d}r+\frac{\pi}{4}\right)\tag{TL08.48}
     $$
     $$
-    \delta h'=\left(ik+\frac{S'}{2S}-\frac{k'}{2k}\right)\delta h.
+    \delta h'=\left(ik+\frac{S'}{2S}-\frac{k'}{2k}\right)\delta h.\tag{TL08.85}
     $$
     also see Miranda and Rafikov (2019)
     $$
-    \delta h'_m=\left[ik+\frac{1}{2}\frac{\mathrm{d}}{\mathrm{d}r}\ln\left(\frac{D_S}{r\Sigma k}\right)\right]\delta h_m
+    \delta h'_m=\left[ik+\frac{1}{2}\frac{\mathrm{d}}{\mathrm{d}r}\ln\left(\frac{D_S}{r\Sigma k}\right)\right]\delta h_m\tag{MR19.50,51}
     $$
 
-- Reflecting boundary condition (Su & Wei, 2025): Eulerian perturbation $\delta u_r=0$
+- Reflecting boundary condition (Su & Wei, 2025): Eulerian perturbation $\delta u_r=0$ (SW25.19)
   
-  Confining boundary condition (Su & Wei, 2025): Lagrangian perturbation $\mathrm{D}P=\delta P+\xi_r\dfrac{\mathrm{d}P}{\mathrm{d}r}=0$
+  Confining boundary condition (Su & Wei, 2025): Lagrangian perturbation $\mathrm{D}P=\delta P+\xi_r\dfrac{\mathrm{d}P}{\mathrm{d}r}=0$ (SW25.20)
+
+## Analytical Solutions
+
+- Tsang & Lai (2008) gave a analytical solutions at section 3.
+    In short, the wave equation near Lindblad resonance can be written as
+    $$
+    V''+\left(1-\frac{7}{36z^2}\right)V=0.\tag{TL08.28}
+    $$
+    denote $V=\sqrt{z}w$ and yield Bessel's equation
+    $$
+    z^2 w''+zw'+(z^2-\nu^2)w=0,\quad \nu=\frac{2}{3}
+    $$
+    and the solutions and asymptotic expansions (Airy functions) are given in the mathematical handbook (Olver et al., 2010).
+    (Equations (9.6.12),(9.7.6),(9.7.8),(9.7.10),(9.7.12) in the handbook)
+
+    {% note info %}
+    The wave equation (TL08.28) only control the wave near OLR, which gives the Airy solutions (local solutions).
+    But for $r\gg r_\text{OL}$ or $r\ll r_\text{OL}$, we have $|z|\gg 1$, and wave equation becomes harmonic wave equation, so assume the local solutions propagate away.
+    {% endnote %}
