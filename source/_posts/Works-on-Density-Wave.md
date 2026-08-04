@@ -21,6 +21,8 @@ tags:
 
 - Olver, F. W. J., Lozier, D. W., Boisvert, R. F., & Clark, C. W. (Eds.). (2010). *NIST handbook of mathematical functions*. Cambridge University Press. https://dlmf.nist.gov/
 
+- Tsang, D. (2011). Protoplanetary disk resonances and type I migration. *The Astrophysical Journal*, *741*(2), 109. https://doi.org/10.1088/0004-637X/741/2/109
+
 <!-- more -->
 
 ## Main Wave Equations
@@ -115,3 +117,15 @@ tags:
     The wave equation (TL08.28) only control the wave near OLR, which gives the Airy solutions (local solutions).
     But for $r\gg r_\text{OL}$ or $r\ll r_\text{OL}$, we have $|z|\gg 1$, and wave equation becomes harmonic wave equation, so assume the local solutions propagate away.
     {% endnote %}
+
+## Torques
+
+- Goldreich & Tremaine (1979) calculated the torque by determining the angular momentum flux
+
+    ![GT79 Torque at Lindblad resonance](GT79_T_LR.png)
+    ![GT79 Torque at corotation resonance](GT79_T_CR.png)
+
+## Reflection and Transmission
+
+- Tsang & Lai (2008) worked out the reflection coefficient $\mathcal{R}$ and transmission coefficient $\mathcal{T}$ at section 4.
+- Tsang (2011) found that the reflected density waves by the inner edge of PPD can stop Type I migration.
