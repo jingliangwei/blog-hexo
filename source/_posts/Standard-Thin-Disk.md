@@ -2,6 +2,7 @@
 title: Standard Thin Disk
 math: true
 date: 2026-07-03 16:26:01
+updated: 2026-07-03 16:26:01
 categories:
     - disk
 tags:

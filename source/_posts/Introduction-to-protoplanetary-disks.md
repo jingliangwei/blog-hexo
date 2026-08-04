@@ -2,6 +2,7 @@
 title: Introduction to protoplanetary disks
 math: true
 date: 2026-07-21 22:01:43
+updated: 2026-07-21 22:01:43
 categories:
   - disk
 tags:

@@ -2,6 +2,7 @@
 title: Weakly Nonlinear Wave Packets and the Nonlinear Schrödinger Equation
 math: true
 date: 2026-07-07 21:30:03
+updated: 2026-07-07 21:30:03
 categories:
     - fluid
 tags:

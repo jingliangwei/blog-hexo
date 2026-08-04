@@ -2,6 +2,7 @@
 title: Black hole shadow
 math: true
 date: 2026-05-31 13:46:00
+updated: 2026-05-31 13:46:00
 categories:
     - relativity
 tags:

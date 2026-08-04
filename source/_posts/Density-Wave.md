@@ -2,6 +2,7 @@
 title: Density Wave
 math: true
 date: 2026-07-25 20:32:53
+updated: 2026-07-25 20:32:53
 categories:
     - fluid
 tags:

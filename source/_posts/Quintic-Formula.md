@@ -2,6 +2,7 @@
 title: Quintic Formula
 math: true
 date: 2026-05-17 13:18:49
+updated: 2026-05-17 13:18:49
 categories:
     - mathematics
 tags:

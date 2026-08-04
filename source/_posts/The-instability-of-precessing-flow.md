@@ -2,6 +2,7 @@
 title: The instability of precessing flow
 math: true
 date: 2026-04-06 14:23:48
+updated: 2026-04-06 14:23:48
 categories:
     - fluid
 tags:

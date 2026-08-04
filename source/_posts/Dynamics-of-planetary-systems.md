@@ -2,6 +2,7 @@
 title: Dynamics of planetary systems
 math: true
 date: 2026-04-19 13:43:25
+updated: 2026-04-19 13:43:25
 categories:
     - planetary science
 tags:

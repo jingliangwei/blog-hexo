@@ -2,6 +2,7 @@
 title: Negative heat capacity
 math: true
 date: 2026-05-14 21:41:10
+updated: 2026-05-14 21:41:10
 categories:
     - thermodynamics
 tags:

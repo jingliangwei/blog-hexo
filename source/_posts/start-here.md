@@ -1,6 +1,7 @@
 ---
 title: Start Here
 date: 2026-03-24 11:00:00
+updated: 2026-03-24 11:00:00
 ---
 
 My new blog here is aim to store my notes on papers, books or something else.

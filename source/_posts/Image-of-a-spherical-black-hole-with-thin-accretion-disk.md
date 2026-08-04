@@ -2,6 +2,7 @@
 title: Image of a spherical black hole with thin accretion disk
 math: true
 date: 2026-05-29 17:15:11
+updated: 2026-05-29 17:15:11
 categories:
     - relativity
 tags:

@@ -2,6 +2,7 @@
 title: 'Chaotic dynamics in a strained rotating flow: a precessing plane fluid layer'
 math: true
 date: 2026-05-18 13:21:06
+updated: 2026-05-18 13:21:06
 categories:
     - fluid
 tags:

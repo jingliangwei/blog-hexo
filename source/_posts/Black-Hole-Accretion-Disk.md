@@ -2,6 +2,7 @@
 title: Black Hole Accretion Disk
 math: true
 date: 2026-06-30 15:28:48
+updated: 2026-06-30 15:28:48
 categories:
     - disk
 tags:

@@ -4,6 +4,7 @@ title: >-
   an external potential
 math: true
 date: 2026-07-25 21:32:48
+updated: 2026-07-25 21:32:48
 categories:
   - fluid
 tags:

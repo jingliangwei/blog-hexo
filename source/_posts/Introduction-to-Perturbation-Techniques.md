@@ -2,6 +2,7 @@
 title: Introduction to Perturbation Techniques
 math: true
 date: 2026-04-04 15:45:31
+updated: 2026-04-04 15:45:31
 categories:
     - mathematics
 tags:

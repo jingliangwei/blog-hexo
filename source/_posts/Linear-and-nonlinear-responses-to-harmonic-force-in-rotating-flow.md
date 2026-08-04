@@ -1,6 +1,7 @@
 ---
 title: Linear and nonlinear responses to harmonic force in rotating flow
 date: 2026-03-24 12:08:00
+updated: 2026-03-24 12:08:00
 math: true
 categories:
     - fluid

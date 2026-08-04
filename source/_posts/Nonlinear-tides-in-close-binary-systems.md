@@ -2,6 +2,7 @@
 title: Nonlinear tides in close binary systems
 math: true
 date: 2026-07-02 16:05:47
+updated: 2026-07-02 16:05:47
 categories:
     - planetary science
 tags:

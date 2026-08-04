@@ -2,6 +2,7 @@
 title: Exploring the role of accretion disk geometry in shaping black hole shadows
 math: true
 date: 2026-07-09 16:51:40
+updated: 2026-07-09 16:51:40
 categories:
     - relativity
 tags:
