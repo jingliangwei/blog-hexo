@@ -2,7 +2,7 @@
 title: Works on Density Wave
 math: true
 date: 2026-07-29 19:17:52
-updated: 2026-08-04 15:00:00
+updated: 2026-08-08 13:40:00
 categories:
     - fluid
 tags:
@@ -119,12 +119,18 @@ tags:
     But for $r\gg r_\text{OL}$ or $r\ll r_\text{OL}$, we have $|z|\gg 1$, and wave equation becomes harmonic wave equation, so assume the local solutions propagate away.
     {% endnote %}
 
-## Torques
+## Torques and AMF
 
-- Goldreich & Tremaine (1979) calculated the torque by determining the angular momentum flux
+- Goldreich & Tremaine (1979) calculated the torque by determining the angular momentum flux (AMF) exerted only by the inhomogeneous wave (i.e. Equation (39) in Miranda and Rafikov (2020))
 
     ![GT79 Torque at Lindblad resonance](GT79_T_LR.png)
     ![GT79 Torque at corotation resonance](GT79_T_CR.png)
+
+- Miranda and Rafikov (2020) gave the total wave AMF Equation (36) and the planet-excited wave AMF Equation (39)
+
+    ![MR20 AMF](MR20_AMF.png)
+
+    Equation (39) is negligible beyond about $2\sim3 H_p$ from the planet.
 
 ## Reflection and Transmission
 
