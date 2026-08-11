@@ -2,7 +2,7 @@
 title: Works on Density Wave
 math: true
 date: 2026-07-29 19:17:52
-updated: 2026-08-08 13:40:00
+updated: 2026-08-11 19:54:00
 categories:
     - fluid
 tags:
@@ -17,6 +17,8 @@ tags:
 
 - Miranda, R., & Rafikov, R. R. (2019). Multiple spiral arms in protoplanetary disks: Linear theory. *The Astrophysical Journal*, *875*(1), 37. https://doi.org/10.3847/1538-4357/ab0f9e
 - Miranda, R., & Rafikov, R. R. (2020). Planet–disk interaction in disks with cooling: Basic theory. *The Astrophysical Journal*, *892*(1), 65. https://doi.org/10.3847/1538-4357/ab791a
+
+- Tanaka, H., Takeuchi, T., & Ward, W. R. (2002). Three-dimensional interaction between a planet and an isothermal gaseous disk. I. Corotation and Lindblad torques and planet migration. *The Astrophysical Journal*, *565*(2), 1257–1274. https://doi.org/10.1086/324713
 
 - Su, Z., & Wei, X. (2025). Gravitational instability in protoplanetary disk with cooling: 2D global analysis. *The Astrophysical Journal*, *983*(2), 89. https://doi.org/10.3847/1538-4357/adc0ff
 
@@ -42,7 +44,7 @@ tags:
 
     $\delta h$ is the enthalpy.
 
-3. Baruteau and Masset (2008) worked out the equation of density wave in a non-barotropic disk (entropy $S=p\Sigma^{-\gamma}$) with the ideal equation of state ($p_0=\Sigma_0c_s^2/\gamma$)
+3. Baruteau and Masset (2008) worked out the equation of density wave in a non-barotropic / baroclinic disk (entropy $S=p\Sigma^{-\gamma}$) with the ideal equation of state ($p_0=\Sigma_0c_s^2/\gamma$)
 
     ![BM08](BM08.png)
 
@@ -81,6 +83,13 @@ tags:
     - $t_c\rightarrow\infty$: adiabatic disk as 4. Equation (15) of Tsang (2014) or Equation (6) of Miranda and Rafikov (2019);
     - $t_c\rightarrow 0$: locally isothermal disk.
     {% endnote %}
+
+6. Tanaka et al. (2002) worked on the 3D version of a global isothermal and barotropic disk.
+
+    ![T02](T02.png)
+
+    here $n$ is the vertical mode number, and $\mu\equiv\dfrac{\mathrm{d}\ln h}{\mathrm{d}\ln r}$ is the scale height radial gradient.
+    When $n=\mu=0$, the Equation (13) in Goldreich and Tremaine (1979) is recovered.
 
 ## Boundary Conditions
 
@@ -121,10 +130,18 @@ tags:
 
 ## Torques and AMF
 
-- Goldreich & Tremaine (1979) calculated the torque by determining the angular momentum flux (AMF) exerted only by the inhomogeneous wave (i.e. Equation (39) in Miranda and Rafikov (2020))
+- Goldreich & Tremaine (1979) calculated the torque on the disk by determining the angular momentum flux (AMF) exerted only by the inhomogeneous wave (i.e. Equation (39) in Miranda and Rafikov (2020))
 
     ![GT79 Torque at Lindblad resonance](GT79_T_LR.png)
     ![GT79 Torque at corotation resonance](GT79_T_CR.png)
+
+- Tanaka et al. (2002) gave the torque on the disk from the planet: (outflow minus inflow)
+
+    the outer Lindblad torque: $T_\text{OLR}=F_A(x\rightarrow\infty)$
+    the inner Lindblad torque: $T_\text{ILR}=-F_A(x\rightarrow-\infty)$
+
+    ![T02 T_LR](T02_T_L.png)
+    ![T02 T_CR](T02_T_C.png)
 
 - Miranda and Rafikov (2020) gave the total wave AMF Equation (36) and the planet-excited wave AMF Equation (39)
 
