@@ -2,7 +2,7 @@
 title: Works on Density Wave
 math: true
 date: 2026-07-29 19:17:52
-updated: 2026-08-11 19:54:00
+updated: 2026-08-12 17:12:00
 categories:
     - fluid
 tags:
@@ -135,19 +135,48 @@ tags:
     ![GT79 Torque at Lindblad resonance](GT79_T_LR.png)
     ![GT79 Torque at corotation resonance](GT79_T_CR.png)
 
-- Tanaka et al. (2002) gave the torque on the disk from the planet: (outflow minus inflow)
+- Tanaka et al. (2002) gave the torque on the disk from the planet for adiabatic disk:
 
+    the net torque on the disk: 
+    $$
+    T_\text{tot}=\int_{r_\text{in}}^{r_\text{out}}\frac{\mathrm{d}T}{\mathrm{d}r}\mathrm{d}r,\quad \frac{\mathrm{d}T}{\mathrm{d}r}=\frac{\mathrm{d}F_A}{\mathrm{d}r}
+    $$
+    contains three parts ($\mathrm{d}F_A/\mathrm{d}r=0$ in adiabatic disk):
     the outer Lindblad torque: $T_\text{OLR}=F_A(x\rightarrow\infty)$
     the inner Lindblad torque: $T_\text{ILR}=-F_A(x\rightarrow-\infty)$
+    the corotation torque: $T_\text{CR}=-[F_A(+0)-F_A(-0)]$
+
+    {% note info %}
+    $$
+    \begin{aligned}
+    T_\text{tot}=\int_{r_\text{in}}^{r_\text{out}}&=\int_{r_\text{in}}^{r_\text{IL}}+\int_{r_\text{IL}}^{-0}+\int_{+0}^{r_\text{OL}}+\int_{r_\text{OL}}^{r_\text{out}} \\
+    &=-F_A(r_\text{in})+F_A(-0)-F_A(+0)+F_A(r_\text{out}) \\
+    &=T_\text{ILR}+T_\text{CR}+T_\text{OLR}
+    \end{aligned}
+    $$
+    {% endnote %}
 
     ![T02 T_LR](T02_T_L.png)
     ![T02 T_CR](T02_T_C.png)
 
-- Miranda and Rafikov (2020) gave the total wave AMF Equation (36) and the planet-excited wave AMF Equation (39)
+- Miranda and Rafikov (2020) gave the torque on the disk with $\beta$ cooling:
 
-    ![MR20 AMF](MR20_AMF.png)
+    - AMF:
+        $$
+        F_J(r)=r^2\Sigma(r)\oint\delta u_r(r,\phi)\delta u_\phi(r,\phi)\mathrm{d}\phi,\tag{MR20.36}
+        $$
+    - the torque density:
+        $$
+        \frac{\mathrm{d}T}{\mathrm{d}r}=-r\oint \Sigma\frac{\partial\Phi_\text{p}}{\partial \phi}\mathrm{d}\phi,\tag{MR20.39}
+        $$
+    now with cooling, $\mathrm{d}F_A/\mathrm{d}r\neq0$ and $\dfrac{\mathrm{d}T}{\mathrm{d}r}\neq\dfrac{\mathrm{d}F_A}{\mathrm{d}r}$
 
-    Equation (39) is negligible beyond about $2\sim3 H_p$ from the planet.
+    the one-sided Lindblad torques are
+
+    ![one-sided T_L](MR20_T_L_oneside.png)
+
+    ![T_L,C](MR20_T_L_C.png)
+
 
 ## Reflection and Transmission
 
