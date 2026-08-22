@@ -2,7 +2,7 @@
 title: Works on Density Wave
 math: true
 date: 2026-07-29 19:17:52
-updated: 2026-08-12 17:12:00
+updated: 2026-08-22 22:13:00
 categories:
     - fluid
 tags:
@@ -11,20 +11,17 @@ tags:
 
 - Lin, C. C., & Shu, F. H. (1964). On the spiral structure of disk galaxies. *The Astrophysical Journal*, *140*, 646. https://doi.org/10.1086/147955
 - Goldreich, P., & Tremaine, S. (1979). The excitation of density waves at the Lindblad and corotation resonances by an external potential. *The Astrophysical Journal*, *233*, 857–871. https://doi.org/10.1086/157448
+- Korycansky, D. G., & Pollack, J. B. (1993). Numerical calculations of the linear response of a gaseous disk to a protoplanet. *Icarus*, *102*(1), 150–165. https://doi.org/10.1006/icar.1993.1039
+- Tanaka, H., Takeuchi, T., & Ward, W. R. (2002). Three-dimensional interaction between a planet and an isothermal gaseous disk. I. Corotation and Lindblad torques and planet migration. *The Astrophysical Journal*, *565*(2), 1257–1274. https://doi.org/10.1086/324713
 - Tsang, D., & Lai, D. (2008). Super-reflection in fluid discs: Corotation amplifier, corotation resonance, Rossby waves and overstable modes. *Monthly Notices of the Royal Astronomical Society*, *387*(1), 446–462. https://doi.org/10.1111/j.1365-2966.2008.13252.x
 - Baruteau, C., & Masset, F. (2008). On the corotation torque in a radiatively inefficient disk. *The Astrophysical Journal*, *672*(2), 1054–1067. https://doi.org/10.1086/523667
+- Olver, F. W. J., Lozier, D. W., Boisvert, R. F., & Clark, C. W. (Eds.). (2010). *NIST handbook of mathematical functions*. Cambridge University Press. https://dlmf.nist.gov/
+- Tsang, D. (2011). Protoplanetary disk resonances and type I migration. *The Astrophysical Journal*, *741*(2), 109. https://doi.org/10.1088/0004-637X/741/2/109
 - Tsang, D. (2014). Linear corotation torques in non-barotropic disks. *The Astrophysical Journal*, *782*(2), 112. https://doi.org/10.1088/0004-637X/782/2/112
-
 - Miranda, R., & Rafikov, R. R. (2019). Multiple spiral arms in protoplanetary disks: Linear theory. *The Astrophysical Journal*, *875*(1), 37. https://doi.org/10.3847/1538-4357/ab0f9e
 - Miranda, R., & Rafikov, R. R. (2020). Planet–disk interaction in disks with cooling: Basic theory. *The Astrophysical Journal*, *892*(1), 65. https://doi.org/10.3847/1538-4357/ab791a
-
-- Tanaka, H., Takeuchi, T., & Ward, W. R. (2002). Three-dimensional interaction between a planet and an isothermal gaseous disk. I. Corotation and Lindblad torques and planet migration. *The Astrophysical Journal*, *565*(2), 1257–1274. https://doi.org/10.1086/324713
-
 - Su, Z., & Wei, X. (2025). Gravitational instability in protoplanetary disk with cooling: 2D global analysis. *The Astrophysical Journal*, *983*(2), 89. https://doi.org/10.3847/1538-4357/adc0ff
 
-- Olver, F. W. J., Lozier, D. W., Boisvert, R. F., & Clark, C. W. (Eds.). (2010). *NIST handbook of mathematical functions*. Cambridge University Press. https://dlmf.nist.gov/
-
-- Tsang, D. (2011). Protoplanetary disk resonances and type I migration. *The Astrophysical Journal*, *741*(2), 109. https://doi.org/10.1088/0004-637X/741/2/109
 
 <!-- more -->
 
@@ -130,33 +127,40 @@ tags:
 
 ## Torques and AMF
 
+the net torque on the disk: 
+$$
+T_\text{tot}=\int_{r_\text{in}}^{r_\text{out}}\frac{\mathrm{d}T}{\mathrm{d}r}\mathrm{d}r,\quad \frac{\mathrm{d}T}{\mathrm{d}r}=\frac{\mathrm{d}F_A}{\mathrm{d}r}
+$$
+contains three parts ($\mathrm{d}F_A/\mathrm{d}r=0$ in adiabatic disk):
+the outer Lindblad torque: $T_\text{OLR}=F_A(x\rightarrow\infty)$
+the inner Lindblad torque: $T_\text{ILR}=-F_A(x\rightarrow-\infty)$
+the corotation torque: $T_\text{CR}=-[F_A(+0)-F_A(-0)]$
+
+{% note info %}
+$$
+\begin{aligned}
+T_\text{tot}=\int_{r_\text{in}}^{r_\text{out}}&=\int_{r_\text{in}}^{-0}+\int_{+0}^{r_\text{out}} \\
+&=-F_A(r_\text{in})+F_A(-0)-F_A(+0)+F_A(r_\text{out}) \\
+&=T_\text{ILR}+T_\text{CR}+T_\text{OLR}
+\end{aligned}
+$$
+{% endnote %}
+
 - Goldreich & Tremaine (1979) calculated the torque on the disk by determining the angular momentum flux (AMF) exerted only by the inhomogeneous wave (i.e. Equation (39) in Miranda and Rafikov (2020))
 
     ![GT79 Torque at Lindblad resonance](GT79_T_LR.png)
     ![GT79 Torque at corotation resonance](GT79_T_CR.png)
 
-- Tanaka et al. (2002) gave the torque on the disk from the planet for adiabatic disk:
+    here they ignore the temperature gradient, and ignore the density gradient in Lindblad torque.
 
-    the net torque on the disk: 
-    $$
-    T_\text{tot}=\int_{r_\text{in}}^{r_\text{out}}\frac{\mathrm{d}T}{\mathrm{d}r}\mathrm{d}r,\quad \frac{\mathrm{d}T}{\mathrm{d}r}=\frac{\mathrm{d}F_A}{\mathrm{d}r}
-    $$
-    contains three parts ($\mathrm{d}F_A/\mathrm{d}r=0$ in adiabatic disk):
-    the outer Lindblad torque: $T_\text{OLR}=F_A(x\rightarrow\infty)$
-    the inner Lindblad torque: $T_\text{ILR}=-F_A(x\rightarrow-\infty)$
-    the corotation torque: $T_\text{CR}=-[F_A(+0)-F_A(-0)]$
+- Korycansky and Pollack (1993) used numerical method to give the Lindblad torque (here $a,b$ represent $\sigma\propto r^{-a}$, $c\propto r^{-b}$, i.e., consider the density gradient and temperature gradient.)
 
-    {% note info %}
-    $$
-    \begin{aligned}
-    T_\text{tot}=\int_{r_\text{in}}^{r_\text{out}}&=\int_{r_\text{in}}^{r_\text{IL}}+\int_{r_\text{IL}}^{-0}+\int_{+0}^{r_\text{OL}}+\int_{r_\text{OL}}^{r_\text{out}} \\
-    &=-F_A(r_\text{in})+F_A(-0)-F_A(+0)+F_A(r_\text{out}) \\
-    &=T_\text{ILR}+T_\text{CR}+T_\text{OLR}
-    \end{aligned}
-    $$
-    {% endnote %}
+    ![KP93 Torque at Lindblad resonance](KP93_T_L.png)
 
-    ![T02 T_LR](T02_T_L.png)
+    agree with the results from Goldreich & Tremaine (1979), but there is difference in the corotation torque.
+
+- Tanaka et al. (2002) gave the new analytical corotation torque to explain the difference from (Korycansky & Pollack ,1993) to (Goldreich & Tremaine, 1979)
+
     ![T02 T_CR](T02_T_C.png)
 
 - Miranda and Rafikov (2020) gave the torque on the disk with $\beta$ cooling:
