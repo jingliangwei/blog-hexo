@@ -2,7 +2,7 @@
 title: Weakly Nonlinear Wave Packets and the Nonlinear Schrödinger Equation
 math: true
 date: 2026-07-07 21:30:03
-updated: 2026-07-07 21:30:03
+updated: 2026-09-18 12:33:00
 categories:
     - fluid
 tags:
@@ -55,7 +55,7 @@ A derivation of the NLS (nonlinear Schrödinger) equation from the KdV (Korteweg
     the group velocity $c_g=\mathrm{d}\omega/\mathrm{d}k=-3k^2$
 
 - At $\mathcal{O}(\epsilon^2)$: $\mathcal{L}^{(0)}u_1=-\mathcal{L}^{(1)}u_0-3\partial_x(u_0^2)$
-    the solvability condition ( remove the eigen mode term in RHS of the equation )
+    the solvability condition ( remove the eigen mode term ($\exp(i\theta),\theta\equiv kx-\omega t$) in RHS of the equation )
     $$
     \mathcal{L}^{(1)}u_0=0\Rightarrow(\partial_T+c_g\partial_X)u_0=0
     $$
@@ -163,11 +163,11 @@ A derivation of the NLS (nonlinear Schrödinger) equation from the KdV (Korteweg
     $$
 
 - At $\mathcal{O}(\epsilon^3)$: $\mathcal{L}^{(0)}u_2=-\mathcal{L}^{(2)}u_0-\mathcal{L}^{(1)}u_1-6\partial_x(u_0u_1)-3\partial_X(u_0^2)$
-    the solvability condition
+    the solvability condition (remove the $\exp(i\theta)$ terms)
     $$
     -\partial_\tau\psi-3ik\partial_{XX}\psi-6ik|\psi|^2\psi/k-6ikA_0\psi=0\tag{2.13}
     $$
-    Equating the coefficients of the oscillation free (time average) terms in (2.13)
+    Equating the coefficients of the oscillation free (time average) terms $\exp(0\theta)$ in $\mathcal{O}(\epsilon^3)$
     $$
     -\partial_T A_0-6\partial_X|\psi|^2=0\Rightarrow A_0=-\frac{2|\psi|^2}{k^2}
     $$
