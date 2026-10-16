@@ -2,7 +2,7 @@
 title: Atmospheric tides and the resonant rotation of Venus
 math: true
 date: 2026-10-15 14:53:07
-updated: 2026-10-15 14:53:07
+updated: 2026-10-16 15:13:07
 categories:
     - planetary science
 tags:
@@ -87,6 +87,9 @@ where $\theta$ is co-latitude and $\lambda$ is longitude measured in the sense o
 ![wave on Earth](wave_earth.png)
 
 - Thermal tide on Venus:
+$$
+{\rm d}T_P=\frac{\partial U}{\partial \lambda}{\rm d}m=\frac{\partial U}{\partial \lambda}\frac{\delta p}{g}{\rm d}A
+$$
 $$
 T_P=7.7\times 10^{22} P\tag{5}
 $$
