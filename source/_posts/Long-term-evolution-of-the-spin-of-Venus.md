@@ -53,6 +53,9 @@ Correia and Laskar (2001) confirmed the present spin state of Venus is the most 
     - the Hamilton's equations to $(L,\ell)$ give the evolution of rotation rate $\omega$ (Eq. 9)
         and the pendulum-like equation gives the width of resonance $\Delta\omega$ as (Eq. 10)
     - capture probabilities $P_{\rm cap}$ in (Eq. 13)
+        $$
+        \frac{{\rm d}\omega}{{\rm d}t}=\langle T\rangle=-W-Z{\rm sign}(\omega-pn)-K\frac{\omega-pn}{n}\tag{11}
+        $$
         illustration from Goldreich and Peale (1966) $P_{\rm cap}=\delta E/\Delta E$
 
         ![](capture_probabilities.png)
@@ -216,6 +219,10 @@ The evolution of the obliquity $\varepsilon$
     with $\beta$ the core-mantle friction parameter in Eq. 77
     $\xi=\dfrac{3Gm_\odot^2 R^5}{Ca^6}\dfrac{k_2}{Q_n}$ the strength of the tides in Eq. 65
 
+$$
+\frac{{\rm d}\omega}{{\rm d}t}\simeq{\rm [CMF]}\frac{-\omega\beta}{|\omega|^{7/2}}\cos^2\varepsilon\,\sin^2\varepsilon\tag{79}
+$$
+
 ### Evolution final states
 
 In this section, they assume the present measured period $\mathcal{P}_{o}=243.0185\pm0.0001$ days is a final state and do not consdier the planetary perturbations.
@@ -226,6 +233,9 @@ In this section, they assume the present measured period $\mathcal{P}_{o}=243.01
     The critical point is $\varepsilon=90^\circ$.
 
 - Rotation final states:
+    $$
+    \frac{{\rm d}\omega}{{\rm d}t}={\rm [gravitational]} K^{\rm g}b^{\rm g} + {\rm [atmospheric]} K^{\rm a}b^{\rm a} \tag{85}
+    $$
 
     ![](four_final_rotation_states.png)
 
@@ -241,6 +251,9 @@ In this section, they assume the present measured period $\mathcal{P}_{o}=243.01
 
 - Atmospheric tides dissipation model
     assume the time lag ratio $\Delta t^{\rm a}(\sigma)/\Delta t^{\rm g}(\sigma)$ fixed with the tidal frequency
+    $$
+    \frac{{\rm d}\omega}{{\rm d}t}={\rm [gravitational]} \left(\frac{\omega}{n}-p\right) + {\rm [atmospheric]} \frac{-\omega_s}{n}{\rm sign}(\omega-pn) \tag{102}
+    $$
 
     ![](fig6.png)
 
@@ -258,7 +271,10 @@ $$
 \varepsilon=\varepsilon_e+\delta \varepsilon\tag{106}
 $$
 $\delta \varepsilon$ leads to CMF effect in (Eq. 79)
-so that a modified of (Eq. 102) is Eq. 107
+so that a modified of (Eq. 102) is
+$$
+    \frac{{\rm d}\omega}{{\rm d}t}={\rm [gravitational]} \left(\frac{\omega}{n}-p\right) + {\rm [atmospheric]} \frac{-\omega_s}{n}{\rm sign}(\omega-pn)  + {\rm [CMF]}_{\rm planetary} \varrho\delta\varepsilon^2 \tag{107}
+$$
 ${\rm d}\omega/{\rm d}t=0$ gives
 $$
 |\delta\omega|=n\varrho\left(\frac{n}{|\omega|}\right)^{5/2}\delta\varepsilon^2\tag{110}
@@ -269,3 +285,38 @@ $$
 Without atmosphere, Venus evolve to a synchronous or near-synchronous rotation equilibrium.
 After formation of atmosphere, Venus evolve toward one of the four final states, but the probability of states depends on the formation time of atmosphere.
 
+#### Final states in the absence of an atmosphere
+
+gravitational tides + CMF effect + planetary perturbations
+
+- the final obliquity still can be either $0^\circ$ or $180^\circ$.
+
+- gravitational tides + CMF effect $\Rightarrow$ Eq. 113: ${\rm d}\omega/{\rm d}t={\rm [gravitational]}+{\rm [CMF]}_{\rm planetary}$
+    ${\rm d}\omega/{\rm d}t=0$ $\Rightarrow$ $\omega_{\rm e}\simeq n(1-\varrho\delta\varepsilon^2)$ (Eq. 116)
+    so the final rotation will librate around $\omega=n$ if captured, otherwise librate around $\bar{\omega}_{\rm e}$
+
+- Capture probabilities in the resonance.
+    (Eq. 113) $\xrightarrow{{\rm Taylor\ expansion}}$ (Eq. 117) which similar to (Eq. 11)
+    This only occur for a strong tidal dissipation ($Q_n=20$) and a weak CMF viscosity ($\nu<10^{-2}\,{\rm m}^2{\rm s}^{-1}$) with a probability smaller than $5\%$.
+
+#### Evolution of the atmosphere
+
+Model the unknown contribution of the atmosphere
+$$
+\zeta(t)=\delta\tilde{p}(t)/\delta\tilde{p}(t_{\rm f}) \tag{121}
+$$
+
+The global dynamical equation is the same as Eq. 107 where $\omega_s$ is replaced by $\zeta(t)\omega_s$
+
+- Excluding planetary perturbations.
+
+    ![](formation_atmosphere.png)
+
+- Including planetary perturbations.
+    Eq. 79 ${\rm [CMF]}_{\rm planetary}$ + Eq. 102 ${\rm [gravitational]} + {\rm [atmospheric]}$ $\xrightarrow{{\rm Taylor\ expansion\ as\ Eq.\ 117}}$ Eq. 122
+
+    For Venus to be captured into resonance becomes impossible whenever $\zeta\ge 8\times 10^{-4}$, that is, in the early stage of the atmosphere formation. Only a weak CMF effect, i.e., a small $\varrho$ is needed for Venus to cross the $1:1$ resonance without capture.
+
+- Escape probabilities from the resonance.
+    The probability of ending in a retrograde state is always $P^->50\%$, independent of the strength of all the involved effect.
+    In the early stage of the atmosphere formation, for $\zeta\le\varrho\delta\varepsilon^2/2$, $P^-=100\%$.
