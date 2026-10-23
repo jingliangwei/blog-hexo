@@ -3,7 +3,7 @@ title: Long-term evolution of the spin of Venus
 math: true
 disableNunjucks: true
 date: 2026-10-21 20:08:14
-updated: 2026-10-22 21:52:14
+updated: 2026-10-23 16:14:14
 categories:
     - planetary science
 tags:
@@ -54,6 +54,7 @@ Correia and Laskar (2001) confirmed the present spin state of Venus is the most 
         and the pendulum-like equation gives the width of resonance $\Delta\omega$ as (Eq. 10)
     - capture probabilities $P_{\rm cap}$ in (Eq. 13)
         illustration from Goldreich and Peale (1966) $P_{\rm cap}=\delta E/\Delta E$
+
         ![](capture_probabilities.png)
         ![](capture_probabilities2.png)
     - escape probabilities $P^+,P^-$ in (Eq. 15)
@@ -192,3 +193,79 @@ The evolution of the obliquity $\varepsilon$
 - for the CMF effect (Eq. 60)
 - for tidal effects (Eq. 61)
 - for planetary perturbations (Eq. 63)
+
+### Tidal effects
+
+- The gravitational tides alone lead the planet's spin to the synchronous state ($\omega=n,\varepsilon=0$)
+
+    ![](grav_tide_effect.png)
+
+- The thermal atmospheric tides alone
+
+    ![](thermal_tide_effect.png)
+
+### CMF effects
+
+![](cmf_effect.png)
+
+- CMF v.s. tidal effect:
+    dimensionless parameter $\varrho$
+    $$
+    \varrho=\frac{\beta}{\xi n^{5/2}}\tag{82}
+    $$
+    with $\beta$ the core-mantle friction parameter in Eq. 77
+    $\xi=\dfrac{3Gm_\odot^2 R^5}{Ca^6}\dfrac{k_2}{Q_n}$ the strength of the tides in Eq. 65
+
+### Evolution final states
+
+In this section, they assume the present measured period $\mathcal{P}_{o}=243.0185\pm0.0001$ days is a final state and do not consdier the planetary perturbations.
+
+- Obliquity final states:
+    In the slow rotation regime ($\omega\sim n$), CMF effect controls the obliquity evolution,
+    there are only two stable positions $\varepsilon=0^\circ$ and $\varepsilon=180^\circ$.
+    The critical point is $\varepsilon=90^\circ$.
+
+- Rotation final states:
+
+    ![](four_final_rotation_states.png)
+
+    letting ${\rm d}\omega/{\rm d}t=0$ for $\varepsilon=0,\pi$ give the retrograde state with $\mathcal{P}^-=243.02$ days and the direct state with $\mathcal{P}^+=76.83$ days.
+
+- Error to the final direct rotation rate:
+    $$
+    \delta \mathcal{P}^+_{\rm f}\simeq\left(\frac{\mathcal{P}^+_{\rm f}}{\mathcal{P}_o}\right)^2\delta\mathcal{P}_o\simeq\frac{\delta\mathcal{P}_o}{10}\tag{93}
+    $$
+
+- Phase lags and $Q$ factor:
+    the relation of $\delta^{\rm g}$, $\delta^{\rm a}$ and $Q_\sigma$
+
+- Atmospheric tides dissipation model
+    assume the time lag ratio $\Delta t^{\rm a}(\sigma)/\Delta t^{\rm g}(\sigma)$ fixed with the tidal frequency
+
+    ![](fig6.png)
+
+- Relation among the tidal dissipation $Q$, the initial rotation rate $\omega_{\rm i}$ and the time needed to reach a final state $\Delta t_{\rm f}$
+    Eq. 103 valid before reach the slow rotation regime at $t=t_{\rm r}$
+    estimate $\Delta t_{\rm f}=t_{\rm r}-t_{\rm i}$
+    $$
+    \Delta t_{\rm f}\simeq Q\omega_{\rm i}/c \tag{105}
+    $$
+
+### Effect of the planetary perturbations
+
+The planetary perturbations lead to a forced obliquity
+$$
+\varepsilon=\varepsilon_e+\delta \varepsilon\tag{106}
+$$
+$\delta \varepsilon$ leads to CMF effect in (Eq. 79)
+so that a modified of (Eq. 102) is Eq. 107
+${\rm d}\omega/{\rm d}t=0$ gives
+$$
+|\delta\omega|=n\varrho\left(\frac{n}{|\omega|}\right)^{5/2}\delta\varepsilon^2\tag{110}
+$$
+
+### Formation of the atmosphere
+
+Without atmosphere, Venus evolve to a synchronous or near-synchronous rotation equilibrium.
+After formation of atmosphere, Venus evolve toward one of the four final states, but the probability of states depends on the formation time of atmosphere.
+
