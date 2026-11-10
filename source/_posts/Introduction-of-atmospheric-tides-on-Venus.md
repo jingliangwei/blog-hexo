@@ -1,5 +1,5 @@
 ---
-title: Atmospheric tides and the resonant rotation of Venus
+title: Introduction of atmospheric tides on Venus
 math: true
 date: 2026-10-15 14:53:07
 updated: 2026-10-16 15:13:07

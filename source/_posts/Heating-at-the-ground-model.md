@@ -1,5 +1,5 @@
 ---
-title: Atmospheric tides and the rotation of venus
+title: Heating at the ground model
 math: true
 date: 2026-11-02 19:38:44
 updated: 2026-11-02 19:38:44
