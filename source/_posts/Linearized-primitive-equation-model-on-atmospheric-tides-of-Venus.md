@@ -4,7 +4,10 @@ math: true
 date: 2026-11-10 22:16:41
 updated: 2026-11-11 16:20:41
 categories:
+    - planetary science
 tags:
+    - thermal tide
+    - linearized primitive equation model
 ---
 
 - Pechmann, J. B. (1983). *Thermal tides in the atmosphere of Venus* (Doctoral dissertation). California Institute of Technology. https://doi.org/10.7907/5cd0-3q63
