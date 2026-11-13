@@ -2,7 +2,7 @@
 title: Global circulation models on atmospheric tides of rocky planets
 math: true
 date: 2026-11-12 15:37:27
-updated: 2026-11-12 15:37:27
+updated: 2026-11-13 19:54:27
 categories:
     - planetary science
 tags:
