@@ -170,7 +170,7 @@ and then undo the first step, i.e., $-2\pi m$ onto the phase of $r$ and swap $\a
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | solutions | $z_3$ | $z_2$ | $z_1$ | $z_4$ | $z_5$ |
 
-and finally undo the second step, i.e., $-2\pi n$ onto the phase of $r$ and swap $\bata$ and $\chi$ back,
+and finally undo the second step, i.e., $-2\pi n$ onto the phase of $r$ and swap $\beta$ and $\chi$ back,
 
 | values | $\alpha$ | $\beta$ | $\chi$ | $\delta$ | $\epsilon$ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
