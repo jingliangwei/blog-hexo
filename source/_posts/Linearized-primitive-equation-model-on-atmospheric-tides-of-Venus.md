@@ -26,7 +26,7 @@ Assuming all tidal fields as small perturbations from a basic or mean state, and
     $D=\nabla\cdot\vec{V}=$ horizontal divergence,
     $T=$ temperature,
     $q=\ln p_s$,
-    $\Phi=gz=$ geopotential,
+    $\Phi=gz+\Omega_{\rm tidal}=$ geopotential,
     vertical coordinate $\sigma=p/p_s$, vertical motion $\dot{\sigma}$
     $$
     \begin{align}
