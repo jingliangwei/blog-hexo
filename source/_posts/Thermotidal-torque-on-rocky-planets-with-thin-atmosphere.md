@@ -60,7 +60,7 @@ Using reduced altitude $x=-\ln(p_0/p_s)$, where $p_s$ designates surface pressur
 
     $\Rightarrow$ $\tilde{V}_{\theta n},$ $\tilde{V}_{\varphi n},$ $\tilde{V}_{r n},$ $\delta\tilde{p}_{n},$ $\delta\tilde{\rho}_{n},$ $\delta\tilde{T}_{n}$ Eq. (87-92)
 
-- The resonance of tidally excited Lamb waves:
+- The resonance of tidally excited Lamb waves (restored by the fluid compressibility):
     occurs for values of tidal frequencies $\sigma_{\mathcal{L};n}$ minimising the denominator of $\mathcal{A}_n$ in absolute value
     $$
     \sigma_{\mathcal{L};n}=\frac{1}{R}\sqrt{\frac{gH_s|\Lambda_n^{m,\nu}|}{1-\gamma}}\tag{97}
