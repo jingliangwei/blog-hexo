@@ -14,6 +14,10 @@ tags:
 
 <!-- more -->
 
+- f-mode: surface gravity waves due to gravity with a free surface
+    g-mode: internal gravity waves due to buoyancy force with stratification
+    r-mode: inertial waves due to Coriolis force with rotation
+
 ## Mathematical Model
 
 - Orbital evolution:
